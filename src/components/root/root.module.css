@@ -1,0 +1,17 @@
+.root{
+    background-image: url(../../assets/img/bedroom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    padding: 3rem;
+}
+
+.viewport{
+    position: relative;
+    border: solid white 2px;
+    z-index: 10;
+}
