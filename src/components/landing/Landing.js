@@ -23,7 +23,7 @@ export const Landing = () => {
             color: themes[color],
             backgroundColor: `${start && backgrounds[color]}`
             }}>
-            <Interactive color={color} start={start}/>
+            <Interactive color={themes[color]} start={start}/>
             <Lamp handleProgressColor={handleProgressColor} color={themes[color]}/>
         </div>
     )
