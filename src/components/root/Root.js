@@ -8,12 +8,12 @@ export const Root = () => {
     const {height, width} = useWindowDimensions()
 
     return (
-        <body className={style.root}>
+        <div className={style.root}>
             <Frame height={height} width={width}/>
             <main className={style.viewport}
             style={{height: height-[6*16]}}>
                 <Outlet/>
             </main>
-        </body>
+        </div>
     )
 }

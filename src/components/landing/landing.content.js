@@ -1,0 +1,1 @@
+export const themes = ['orange', 'purple', 'pink', 'blue', 'aqua']
