@@ -14,5 +14,5 @@ export const useComponentDimensions = () => {
   }, []);
 
 
-  return [ref, height, width]
+  return [ref, width, height]
 }
