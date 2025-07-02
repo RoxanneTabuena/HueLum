@@ -2,3 +2,29 @@
     height: 100%;
     width: 100%;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.side *{
+    margin-left: 1rem;
+}
+
+.copy{
+    text-wrap: wrap;
+}
+
+.info button {
+}
