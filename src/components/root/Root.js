@@ -6,7 +6,6 @@ import style from './root.module.css'
 
 export const Root = () => {
     const {height, width} = useWindowDimensions()
-    console.log(height, width)
     return (
         <div className={style.root}
          style={{backgroundSize: `${width}, ${height}`}}>
